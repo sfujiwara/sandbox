@@ -2,14 +2,28 @@ name: Improve existing content
 description: Make a suggestion to improve the content in an existing article.
 labels:
   - content
+
 body:
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      description: |
+        Select environment.
+      options:
+        - DEV
+        - STG
+        - PROD
+    validations:
+      required: true
+
   - type: markdown
+    id: task
     attributes:
       value: |
-        **HUBBERS!!** This is the github/docs open source repo. You may want to open an issue in the internal-only github/docs-content repo instead.
-
-        * Before you file an issue read the [Contributing guide](https://docs.github.com/en/contributing).
-        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/github/docs/issues).
+        - [ ] task1
+        - [ ] task2
 
   - type: checkboxes
     id: terms
@@ -31,8 +45,8 @@ body:
     attributes:
       label: What part(s) of the article would you like to see updated?
       description: |
-        - Give as much detail as you can to help us understand the change you want to see. 
-        - Why should the docs be changed? What use cases does it support? 
+        - Give as much detail as you can to help us understand the change you want to see.
+        - Why should the docs be changed? What use cases does it support?
         - What is the expected outcome or behavior?
     validations:
       required: true
