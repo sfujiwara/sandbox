@@ -10,12 +10,11 @@ jobs:
     permissions:
       contents: read
       id-token: write
-
+    environment: production
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v6
 
       - name: echo
-        environment: production
         run: echo hello
