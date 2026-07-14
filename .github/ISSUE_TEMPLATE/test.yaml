@@ -10,7 +10,8 @@ body:
 
   - type: markdown
     attributes:
-      value: '## Title 1'
+      value: |
+        ## Title 1
 
   - type: input
     id: dev
