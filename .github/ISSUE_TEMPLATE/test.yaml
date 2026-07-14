@@ -6,7 +6,7 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: ---
+      value:
 
   - type: markdown
     id: section1
@@ -26,6 +26,10 @@ body:
       label: prod
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value:
 
   - type: markdown
     id: section2
