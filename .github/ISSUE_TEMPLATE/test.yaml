@@ -18,10 +18,10 @@ body:
       required: true
 
   - type: checkboxes
-    id: terms
+    id: environments
     attributes:
-      label: Code of Conduct
-      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      label: Environments
+      description: Select environments.
       options:
         - label: dev
         - label: stg
