@@ -27,6 +27,11 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    id: section2
+    attributes:
+      value: '## Title 2'
+
   - type: dropdown
     id: environment
     attributes:
