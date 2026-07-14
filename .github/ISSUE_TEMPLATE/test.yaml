@@ -5,6 +5,11 @@ labels:
 
 body:
 
+  - type: markdown
+    id: section1
+    attributes: |
+      # Title 1
+
   - type: dropdown
     id: environment
     attributes:
