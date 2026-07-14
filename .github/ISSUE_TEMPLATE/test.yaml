@@ -4,12 +4,11 @@ labels:
   - content
 
 body:
-  - type: markdown
-    attributes:
-      value: ''
+  # - type: markdown
+  #   attributes:
+  #     value: ''
 
   - type: markdown
-    id: section1
     attributes:
       value: '## Title 1'
 
@@ -27,12 +26,11 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: ''
+  # - type: markdown
+  #   attributes:
+  #     value:
 
   - type: markdown
-    id: section2
     attributes:
       value: '## Title 2'
 
