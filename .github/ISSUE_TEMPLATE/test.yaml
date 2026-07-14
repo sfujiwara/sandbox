@@ -11,7 +11,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        <br>
+
 
         ## Title 1
 
