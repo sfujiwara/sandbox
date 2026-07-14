@@ -4,19 +4,6 @@ labels:
   - content
 
 body:
-  - type: dropdown
-    id: environment
-    attributes:
-      label: Environment
-      description: |
-        Select environment.
-      options:
-        - DEV
-        - STG
-        - PROD
-    validations:
-      required: true
-
   - type: checkboxes
     id: environments
     attributes:
@@ -33,6 +20,16 @@ body:
       description: Please link to the article you'd like to see updated.
     validations:
       required: true
+
+  - type: checkboxes
+    id: security
+    attributes:
+      label: Security Checks
+      description: Security check.
+      options:
+        - label: hoge
+        - label: fuga
+        - label: piyo
 
   - type: textarea
     attributes:
