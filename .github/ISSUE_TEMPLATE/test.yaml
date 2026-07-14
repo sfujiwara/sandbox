@@ -4,39 +4,6 @@ labels:
   - content
 
 body:
-  # - type: markdown
-  #   attributes:
-  #     value: ''
-
-  - type: markdown
-    attributes:
-      value: |
-
-
-        ## Title 1
-
-  - type: input
-    id: dev
-    attributes:
-      label: dev
-    validations:
-      required: true
-
-  - type: input
-    id: prod
-    attributes:
-      label: prod
-    validations:
-      required: true
-
-  # - type: markdown
-  #   attributes:
-  #     value:
-
-  - type: markdown
-    attributes:
-      value: '## Title 2'
-
   - type: dropdown
     id: environment
     attributes:
@@ -50,21 +17,15 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    id: task
-    attributes:
-      value: |
-        - [ ] task1
-        - [ ] task2
-
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
       description: This project has a Code of Conduct that all participants are expected to understand and follow.
       options:
-        - label: I have read and agree to the GitHub Docs project's [Code of Conduct](https://github.com/github/docs/blob/main/.github/CODE_OF_CONDUCT.md)
-          required: true
+        - label: dev
+        - label: stg
+        - label: prod
 
   - type: textarea
     attributes:
