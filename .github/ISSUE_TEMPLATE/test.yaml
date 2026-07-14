@@ -10,7 +10,8 @@ body:
 
   - type: markdown
     attributes:
-      value: ''
+      value: |
+        aaa
 
   - type: input
     id: dev
